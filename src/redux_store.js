@@ -1,9 +1,10 @@
 import { createStore, combineReducers } from 'redux';
 
-import { auth } from './reducers';
+import { auth, search } from './reducers';
 
 const reducers = combineReducers({
     auth,
+    search,
 });
 
 const store = createStore(reducers);

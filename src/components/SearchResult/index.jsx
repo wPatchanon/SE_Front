@@ -1,9 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Button from '@material-ui/core/Button';
 
 
-class SearchBar extends React.Component {
+class SearchResult extends React.Component {
   render() {
     return (
         <div/>
@@ -11,4 +10,4 @@ class SearchBar extends React.Component {
   }
 }
 
-export default SearchBar;
+export default SearchResult;
