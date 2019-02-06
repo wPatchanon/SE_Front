@@ -7,7 +7,7 @@ import { SearchResult } from '../../components';
 class Home extends React.Component {
   render() {
     return (
-        < SearchResult/>
+      < SearchResult />
     );
   }
 }
